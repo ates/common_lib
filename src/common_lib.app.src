@@ -1,0 +1,7 @@
+{application, common_lib, [
+    {description, "Common Library"},
+    {vsn, "3.3.4"},
+    {registered, [cl_timer_srv]},
+    {applications, [kernel, stdlib]},
+    {mod, {common_lib, []}}
+]}.
